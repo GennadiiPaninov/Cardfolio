@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import AnimatedCursor from 'react-animated-cursor'
 
-import { theme } from '@/components/styles/theme'
+import { theme } from '@/styles/theme'
 import styled from 'styled-components'
 
 export const Cursor = () => {
