@@ -1,5 +1,11 @@
+import { Cursor } from '@/components/cursor'
+
 function App() {
-  return <></>
+  return (
+    <>
+      <Cursor />
+    </>
+  )
 }
 
 export default App
