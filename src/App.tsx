@@ -1,9 +1,10 @@
-import { Cursor } from '@/components/cursor'
+import { BackgroundParticle, Cursor } from '@/components'
 
 function App() {
   return (
     <>
       <Cursor />
+      <BackgroundParticle />
     </>
   )
 }
