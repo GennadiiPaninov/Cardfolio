@@ -47,7 +47,7 @@ export const BackgroundParticle = () => {
         },
         particles: {
           color: {
-            value: 'rgba(255, 120, 45, 0.8)',
+            value: '#2cb67d',
           },
           links: {
             color: '#ffffff',

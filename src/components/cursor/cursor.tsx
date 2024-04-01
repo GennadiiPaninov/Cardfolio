@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import AnimatedCursor from 'react-animated-cursor'
 
-import { theme } from '@/styles/theme'
 import styled from 'styled-components'
 
 export const Cursor = () => {
@@ -23,12 +22,12 @@ export const Cursor = () => {
           innerScale={1.5}
           innerSize={10}
           innerStyle={{
-            backgroundColor: theme.colors.font,
+            backgroundColor: 'white',
           }}
           outerScale={1.3}
           outerSize={25}
           outerStyle={{
-            backgroundColor: ' rgba(255, 120, 45, 0.8)',
+            backgroundColor: ' #2cb67d',
           }}
         />
       )}
