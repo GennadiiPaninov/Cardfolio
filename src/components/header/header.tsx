@@ -20,11 +20,11 @@ export const Header = () => {
   }, [])
 
   const menuItems = [
-    { href: 'home', title: `${t('Home', { ns: 'header' })}` },
-    { href: 'aboutMe', title: `${t('About Me', { ns: 'header' })}` },
-    { href: 'skills', title: `${t('Skills', { ns: 'header' })}` },
-    { href: 'portfolio', title: `${t('Portfolio', { ns: 'header' })}` },
-    { href: 'contacts', title: `${t('Contacts', { ns: 'header' })}` },
+    { href: 'home', title: `${t('menuHome', { ns: 'header' })}` },
+    { href: 'aboutMe', title: `${t('menuAboutMe', { ns: 'header' })}` },
+    { href: 'skills', title: `${t('menuSkills', { ns: 'header' })}` },
+    { href: 'portfolio', title: `${t('menuPortfolio', { ns: 'header' })}` },
+    { href: 'contacts', title: `${t('menuContacts', { ns: 'header' })}` },
   ]
 
   return (

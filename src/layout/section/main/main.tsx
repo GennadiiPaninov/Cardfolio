@@ -20,14 +20,14 @@ export const Main = () => {
               <S.Photo alt={'main-photo'} src={photo} />
             </S.PhotoWrapper>
             <S.InfoWrapper>
-              <S.Name>{t('Геннадий Лобоцкий', { ns: 'main' })}</S.Name>
+              <S.Name>{t('name', { ns: 'main' })}</S.Name>
               <S.MainTitle>
                 <p> {t('position', { ns: 'main' })}</p>
                 <Typewriter
                   options={{
                     autoStart: true,
                     loop: true,
-                    strings: [`${t('Front-end Developer', { ns: 'main' })}`],
+                    strings: [`${t('position', { ns: 'main' })}`],
                   }}
                 />
               </S.MainTitle>
