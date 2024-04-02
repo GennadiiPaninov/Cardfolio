@@ -2,6 +2,7 @@ import { BackgroundParticle, Cursor, Header } from '@/components'
 import { LanguageSwitcher } from '@/layout/languageSwicher/languageSwitcher'
 import { AboutMe } from '@/layout/section/about-me/about-me'
 import { Main } from '@/layout/section/main'
+import { Portfolio } from '@/layout/section/portfolio/portfolio'
 import { Skills } from '@/layout/section/skills/skills'
 import { theme } from '@/styles'
 import { ThemeProvider } from 'styled-components'
@@ -16,6 +17,7 @@ function App() {
       <Main />
       <AboutMe />
       <Skills />
+      <Portfolio />
     </ThemeProvider>
   )
 }
