@@ -3,10 +3,10 @@ export const theme = {
     transitions: '0.3s ease-in-out',
   },
   colors: {
-    accent: '#9EFF00',
-    font: '#638a4f',
+    accent: '#ff8906',
+    font: '#ff8e3c',
     primaryBg: '#0C070A',
-    secondary: '#D5FF8F',
+    secondary: '#ff8e3c',
     secondaryBg: '#131012',
   },
   media: {
