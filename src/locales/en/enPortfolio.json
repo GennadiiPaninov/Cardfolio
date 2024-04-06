@@ -1,0 +1,8 @@
+{
+  "title": "Portfolio",
+  "descriptionCards": "This application is designed for effective learning through flashcards that contain questions and answers. Users can create their own sets of flashcards or utilize pre-made decks. The application also allows adding images and videos to the flashcards to enhance information retention.",
+  "descriptionCheckFlow": "The \"Check Flow\" project provides a convenient interface for creating, editing, deleting, and displaying tasks and to-do lists. Users can easily add new tasks, set their completion status.",
+  "buttonDemo": "Demo",
+  "buttonCode": "Code",
+  "LinkView": "View project"
+}

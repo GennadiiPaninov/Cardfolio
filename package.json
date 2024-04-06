@@ -14,6 +14,7 @@
     "@emailjs/browser": "^4.3.3",
     "@fontsource/plus-jakarta-sans": "^5.0.19",
     "framer-motion": "^11.0.24",
+    "i18next": "^23.10.1",
     "react": "^18.2.0",
     "react-animated-cursor": "^2.11.2",
     "react-awesome-reveal": "^4.2.8",

@@ -17,7 +17,7 @@ export const ContactsForm = () => {
     }
     const value = e.currentTarget
 
-    emailjs.sendForm('service_knpk8sm', 'template_iot9u2r', form.current, '4D4Sqo0622kiedngy').then(
+    emailjs.sendForm('service_fv5wwpp', 'template_sxoqqqp', form.current, 'ZRy7rzr124FUQtVJl').then(
       result => {
         setFormSubmitted(true)
         console.log(result.text)

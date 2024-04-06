@@ -16,7 +16,8 @@ export const GlobalStyles = createGlobalStyle`
 
     html, body {
         min-width: 360px;
-
+        height: 100%;
+      background-color: transparent;
         input:-webkit-autofill,
         input:-webkit-autofill:hover,
         input:-webkit-autofill:focus,
