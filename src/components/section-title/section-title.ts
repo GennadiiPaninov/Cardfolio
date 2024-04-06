@@ -5,7 +5,7 @@ export const SectionTitle = styled.h2`
   position: relative;
   text-align: center;
   padding: 50px 0;
-  border-bottom: 1px solid rgba(158, 255, 0, 0.3);
+  border-bottom: 1px solid #ff8906;
   margin-bottom: 50px;
   ${font({
     color: theme.colors.accent,

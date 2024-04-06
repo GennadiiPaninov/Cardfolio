@@ -5,7 +5,7 @@ const Header = styled.header`
   position: fixed;
   width: 100%;
   background-color: rgba(12, 7, 10, 0.7);
-  border-bottom: 1px solid rgba(158, 255, 0, 0.3);
+  border-bottom: 1px solid #ff8906;
   z-index: 9999;
 
   @media ${theme.media.tablet} {
