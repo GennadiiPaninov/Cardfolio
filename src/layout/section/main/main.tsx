@@ -43,8 +43,14 @@ export const Main = () => {
               <Button variant={'outlined'}>
                 <>
                   <Icon height={'20'} id={'save'} viewBox={'0 0 20 20'} width={'20'} />
-                  <a download href={''} rel={'noopener noreferrer'} target={'_blank'}>
-                    {/*в href передать ссылку на гугл диск загрузку*/}
+                  <a
+                    download
+                    href={
+                      'https://drive.google.com/file/d/1M9Lj0oHK-umM56P2K80IMoYr3Rl869Pb/view?usp=drive_link'
+                    }
+                    rel={'noopener noreferrer'}
+                    target={'_blank'}
+                  >
                     {t('downloadButton', { ns: 'main' })}
                   </a>
                 </>
