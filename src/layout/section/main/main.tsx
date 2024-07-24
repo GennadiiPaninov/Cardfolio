@@ -46,7 +46,7 @@ export const Main = () => {
                   <a
                     download
                     href={
-                      'https://drive.google.com/file/d/1M9Lj0oHK-umM56P2K80IMoYr3Rl869Pb/view?usp=drive_link'
+                      'https://drive.google.com/file/d/17xGdGG_B00YPjOby8WIpZ4zl3bux0Jet/view?usp=drive_link'
                     }
                     rel={'noopener noreferrer'}
                     target={'_blank'}
